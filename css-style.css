@@ -9,6 +9,14 @@ body {
 
 }
 
+#container {
+	width: 100%;
+	height: 100%;
+	font-size: small;
+	white-space: nowrap;
+}
+
+
 .sign-in {
 		line-height: 24px;
 		background-color: #4285f4;
@@ -41,4 +49,94 @@ body {
 		font-size: 14px;
 }
 
+#search-area {
+		padding: 30px;
+		height: 400px;
+		width: 600px;
+		margin: 150px auto 280px;
+		clear: both;
+		white-space: nowrap;
+}
 
+.logo {
+		width: 290px;
+		margin: 140px auto 25px auto;
+}
+
+.logo img {
+		height: 95px;
+		width: 275px;
+}
+
+.search-box {
+		width: 550px;
+		margin: 0 auto;
+	}
+
+input[type='search'] {
+		width: 550px;
+		height: 25px;
+		border-radius: 2px;
+		border: 1px solid ;
+		size: 100px;
+
+	}
+.search-options ul {
+		width: 300px;
+		list-style-type: none;
+		margin: 15px auto;
+}
+
+.search-options li {
+		display: inline-block;
+		margin: 0 8px;
+}
+
+button {
+		height: 30px;
+		border-radius: 2px;
+		background-color: #f3f3f3;
+		border: 1px solid #ccc;
+		font-weight: bold;
+		}
+
+#footer {
+	left: 0px;
+	width: 100%;
+	border-top: 1px solid #e4e4e4;
+	background-color: #F2F2F2;
+	line-height: 30px;
+	position: absolute;
+	margin-top: 160px;
+}
+
+#footer ul {
+	margin: 5px 0;
+	background-color: #F2F2F2;
+}
+
+#footer li {
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+#footer a {
+	text-decoration: none;
+	padding: 2px 15px;
+	color: #666;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.left-footer-nav {
+	float: left;
+	padding-left: 20px;
+}
+
+.right-footer-nav {
+	float: right;
+	padding-left: 0px;
+	padding-right: 20px;
